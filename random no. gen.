@@ -1,0 +1,22 @@
+import random
+
+# Generate a random integer within a specific range
+random_integer = random.randint(1, 100)
+print("Random integer:", random_integer)
+
+# Generate a random float between 0 and 1
+random_float = random.random()
+print("Random float:", random_float)
+
+# Generate a random float within a specific range
+random_float_range = random.uniform(1.0, 10.0)
+print("Random float within a range:", random_float_range)
+
+# Generate a random integer from a sequence
+random_choice = random.choice([1, 2, 3, 4, 5])
+print("Random choice from a sequence:", random_choice)
+
+# Shuffle a list randomly
+my_list = [1, 2, 3, 4, 5]
+random.shuffle(my_list)
+print("Shuffled list:", my_list)
